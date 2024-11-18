@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda</title>
+  <link rel="stylesheet" href="assets/css/LoginRegis.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <header>
+    <div class="logo-welcome-container">
+      <img src="assets/img/Logo-UIB-Putih.webp" alt="Logo UIB" class="logo-uib">
+    <h2 class="Welcome">Selamat Datang</h2>
+    </div>
+    <nav class="navigation">
+        <a href="1.HomeLoginRegis.html">Beranda</a>
+        <a href="1.HelpLoginRegis.html">Bantuan</a>
+        <a href="1.AboutLoginRegis.html">Tentang kami</a>
+        <button class="btnlogin-popup">Login</button>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <span class="icon-close">X</span>
+
+    <div class="form-box login">
+      <h2>Login</h2>
+      <form id="loginform">
+        <div class="input-box">
+          <span class="icon"><i class="fa-regular fa-envelope"></i></span>   
+          <input type="email" id="emaillogin" required>
+          <label>Email</label>      
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>   
+          <input type="password" id="passwordlogin" required>
+          <label>Password</label>      
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">Remember me</label>
+          <a href="#">Forget Password ?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <p>Dont have an account ?
+            <a href="#" class="register-link">Register</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box register">
+      <h2>Register</h2>
+      <form id="regisform">
+        <div class="input-box">
+          <span class="icon"><i class="fa-regular fa-user"></i></i></span>   
+          <input type="text" id="usernameregis" required>
+          <label>User Name</label>      
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-regular fa-envelope"></i></span>   
+          <input type="email" id="emailregis" required>
+          <label>Email</label>      
+        </div>
+        <div class="input-box">
+          <span class="icon"><i class="fa-solid fa-lock"></i></span>   
+          <input type="password" id="passwordregis" required>
+          <label>Password</label>      
+        </div>
+        <div class="remember-forgot">
+          <label><input id="termscheckbox" type="checkbox">Agree to the terms and conditions</label>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <div class="login-register">
+          <p>Already have an account ?
+            <a href="#" class="login-link">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="assets/js/LoginRegis.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="assets/css/Profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <input type="checkbox" id="check">
+
+    <div class="sidebar">
+      <img src="assets/img/Logo-UIB-Putih.webp" alt="Logo UIB" class="logo-uib">
+        <label for="check">
+            <i class="fa-solid fa-circle-arrow-left" id="sidebar_btn"></i>
+        </label>
+        <a href="Home.html"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="Profile.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
+        <a href="About.html"><i class="fa-solid fa-circle-info"></i><span>About Us</span></a>
+        <button class="btnlogout-popup">Logout</button>
+        <div id="logoutPopup" class="popup-overlay" style="display: none;">
+          <div class="popup-content">
+              <p>Are you sure you want to logout?</p>
+              <button id="confirmLogout">Yes</button>
+              <button id="cancelLogout">No</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <form class="account">
+            <div class="account-header">
+                <h1 class="account-title">Profil Mahasiswa</h1>
+            </div>
+            <div class="account-edit">
+                <div class="input-container">
+                    <label>Nama</label>
+                    <input id="namaInput" type="text" placeholder="Nama" />
+                </div>
+                <div class="input-container">
+                    <label>NPM</label>
+                    <input type="number" placeholder="NPM" />
+                </div>
+                <div class="input-container">
+                    <label>Prodi</label>
+                    <input type="text" placeholder="Prodi" />
+                </div>
+            </div>
+            <div class="account-edit">
+                 <div class="input-container">
+                    <label>Angkatan</label>
+                    <input type="number" placeholder="Angkatan" />
+                </div>
+                <div class="input-container">
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div class="input-container">
+                    <label>Total Sertifikat</label>
+                    <input type="number" placeholder="Total" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="table-kegiatan-yang-udah-diikuti-profile">
+        <table>
+          <thead>
+            <tr>
+              <th class="col1" >Nomor</th>
+              <th class="col2" >Kegiatan</th>
+              <th class="col3" >SI/NonSI</th>
+              <th class="col4" >Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col1" >1</td>
+              <td class="col2" >perang dunia 5</td>
+              <td class="col3" >SI</td>
+              <td class="col4" >Sudah</td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+            <tr>
+              <td class="col1" ></td>
+              <td class="col2" ></td>
+              <td class="col3" ></td>
+              <td class="col4" ></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>     
+
+      <script src="assets/js/main.js"></script>
+</body>
+</html>
