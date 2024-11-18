@@ -68,5 +68,5 @@ document.getElementById("regisform").addEventListener("submit", function (e) {
     localStorage.setItem("users", JSON.stringify(users));
 
     alert("Registrasi berhasil! Silakan login.");
-    window.location.href = "1.HomeLoginRegis.html"; // Kembali ke halaman login
+    window.location.href = "index.html"; // Kembali ke halaman login
 });

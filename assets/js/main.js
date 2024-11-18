@@ -24,7 +24,7 @@ logoutButton.addEventListener("click", function () {
 // Jika pengguna memilih "Yes"
 confirmLogout.addEventListener("click", function () {
     logoutPopup.style.display = "none";
-    window.location.href = "1.HomeLoginRegis.html"; // Ganti dengan URL halaman login
+    window.location.href = "index.html"; // Ganti dengan URL halaman login
 });
 
 // Jika pengguna memilih "No"
